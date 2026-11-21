@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "question": "কেষ্টর মায়ের মৃত্যুর সময় কেষ্টর বয়স কত ছিল?",
+    "expected_answer": "কেষ্টর বয়স চৌদ্দ বছর ছিল।",
+    "expected_source": {
+      "section": "মেজদিদি",
+      "chapter": "এক"
+    },
+    "in_book": true
+  },
+  {
+    "id": 2,
+    "question": "কেষ্টর মায়ের মৃত্যুর পর গ্রামে তার অবস্থা কী হয়েছিল?",
+    "expected_answer": "তার গ্রামে আর দাঁড়াবার স্থান ছিল না।",
+    "expected_source": {
+      "section": "মেজদিদি",
+      "chapter": "এক"
+    },
+    "in_book": true
+  },
+  {
+    "id": 3,
+    "question": "বিপিনের কী ব্যবসা ছিল?",
+    "expected_answer": "বিপিনের ধান-চালের কারবার ছিল।",
+    "expected_source": {
+      "section": "মেজদিদি",
+      "chapter": "দুই"
+    },
+    "in_book": true
+  },
+  {
+    "id": 4,
+    "question": "কেষ্ট সন্ধ্যায় কী কী খেয়েছিল বলে জানায়?",
+    "expected_answer": "প্রাথমিক test answer: লুচি, রুইমাছের মুড়োর তরকারি ও মিষ্টি। downloaded chapter text-এর সঙ্গে মিলিয়ে নিন।",
+    "expected_source": {
+      "section": "মেজদিদি",
+      "chapter": "তিন"
+    },
+    "in_book": true
+  },
+  {
+    "id": 5,
+    "question": "হেমাঙ্গিনীর কী অসুখ হয়েছিল?",
+    "expected_answer": "হেমাঙ্গিনীর জ্বর হয়েছিল; ডাক্তার বলেছিলেন সর্দি বুকে বসেছে।",
+    "expected_source": {
+      "section": "মেজদিদি",
+      "chapter": "আট"
+    },
+    "in_book": true
+  },
+  {
+    "id": 6,
+    "question": "দত্তদের বাড়িতে কী অনুষ্ঠান হওয়ার কথা ছিল?",
+    "expected_answer": "দত্তদের বাড়িতে পুতুলনাচ হওয়ার কথা ছিল।",
+    "expected_source": {
+      "section": "মেজদিদি",
+      "chapter": "আট"
+    },
+    "in_book": true
+  },
+  {
+    "id": 7,
+    "question": "সত্যেন্দ্র কার ছেলে ছিল?",
+    "expected_answer": "সত্যেন্দ্র জমিদার চৌধুরীর ছেলে ছিল।",
+    "expected_source": {
+      "section": "আঁধারে আলো",
+      "chapter": "এক"
+    },
+    "in_book": true
+  },
+  {
+    "id": 8,
+    "question": "সত্যেন্দ্র কোন পরীক্ষায় উত্তীর্ণ হয়েছিল?",
+    "expected_answer": "সত্যেন্দ্র বি.এ. পাশ করেছিল।",
+    "expected_source": {
+      "section": "আঁধারে আলো",
+      "chapter": "এক"
+    },
+    "in_book": true
+  },
+  {
+    "id": 9,
+    "question": "বাংলাদেশের রাজধানীর নাম কী?",
+    "expected_answer": "এই তথ্যটি মেজদিদি বইয়ের সংগৃহীত অংশে নেই; chatbot-এর উচিত উত্তর না দেওয়া।",
+    "expected_source": null,
+    "in_book": false
+  },
+  {
+    "id": 10,
+    "question": "কেষ্ট কোন বিশ্ববিদ্যালয়ে পড়াশোনা করেছিল?",
+    "expected_answer": "এই তথ্যটি মেজদিদি বইয়ের সংগৃহীত অংশে পাওয়া যায় না; chatbot-এর উচিত উত্তর না দেওয়া।",
+    "expected_source": null,
+    "in_book": false
+  }
+]

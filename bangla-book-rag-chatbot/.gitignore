@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.streamlit/secrets.toml
+vectorstore/*
+!vectorstore/.gitkeep
+evaluation/results.json
+.DS_Store

@@ -1,0 +1,30 @@
+BANGLA BOOK RAG CHATBOT — START HERE
+
+1. Extract this ZIP.
+2. Open the extracted bangla-book-rag-chatbot folder in VS Code.
+3. Use Python 3.12.
+4. Open the VS Code terminal and run:
+
+   py -3.12 -m venv .venv
+   .venv\Scripts\activate
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+
+5. Copy .env.example to .env and put your Groq API key in .env.
+6. Run these commands IN THIS ORDER:
+
+   python crawler.py
+   python ingest.py
+   streamlit run app.py
+
+7. For the bonus comparison:
+
+   python evaluate.py
+
+IMPORTANT:
+- The first crawl needs internet access.
+- The first ingestion downloads BAAI/bge-m3 and may take time / disk space.
+- Check data/book.json and confirm all 14 chapter pages were collected.
+- Verify the expected answers in tests/test_questions.json against the crawled text.
+- Never upload .env or your API key to GitHub.
+- Vector indexes are generated locally and excluded from Git.
